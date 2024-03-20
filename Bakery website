@@ -1,0 +1,177 @@
+<DOCTYPE html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>DOUGH FAIRY</title>
+		<style type="text/css">
+			
+			  button{
+                 background-color: orangered;
+                 color: white;
+                 font-family: italic;
+			}
+			header{
+				padding-bottom: 40px;
+			}
+			*{
+				font-family: cursive;
+				font-display: initial;
+			}
+			body{
+				background-color: lightpink;
+				background-image: url(bakery.jpg);
+
+			}
+		  header li{
+				float: left;
+				display: inline;
+				padding:  0 10px 0 10px;
+
+							}
+			header nav{
+				float: right;
+				padding-top: 5px;
+				padding-bottom: 10px;
+			}
+			header a:hover{
+				color: deeppink;
+			}
+			h2{
+				color: darkolivegreen;
+           }
+           h1{
+           	text-align: center;
+           	color: beige;
+
+           }
+           .contact{
+           	color: orange;
+           }
+           .copyright{
+           	color: orange;
+
+           }
+           .FAQs{
+           
+           	color: orange;
+           }
+           footer{
+           	background-color: black;
+           }
+           .Reviews{
+           	background-color: brown;
+           }
+           /* Image copyrights; croissants-Polina Tankilevich, Cinnamon rolls- Pixabay, Coconut bread:Marta Dzedysheko, Peanut bread:Ana Palade, garlic bread:Rajan Gaur, Coffee bar and bakery:Lisa fotios, Rye bread:Mariana Kurnyk Mocha: Fallon Michael,frappe:jvalencuazz Shon, eatdoughnut;Utopix pictures pictures*/
+		</style>
+	</head>
+	<body>
+		<header>
+	<h1>Dough Fairy</h1>
+	<div id="links">
+		<nav>
+		<ul>
+			<li><a href="home1.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="bestsellers.html">Best sellers</a></li>
+			<li><a href="discounts.html">Offers</a></li>
+		</ul>
+		
+	</nav>
+	</div>
+	<img src="coffeeshop.jpg" alt="store front" width="100%" height="75%">
+	</header>
+	<fieldset>
+		<legend>Bread</legend>
+	<h2>Bread</h2><br>
+    <img src="bread.jpg" style="background-color: lightpink;" width="45%" height="45%"><br>
+    <figcaption><em>Fresh bread</em></figcaption><br><br>
+    There are many varieties of bread that we sell at our bakery in order to cater to the preferences of all our clients. Shop here:<br>
+    <img src="ryebread.jpg" alt="Rye bread" width="25%" height="25%">
+    <figcaption>Rye bread-<b>KSH 250/-</b></figcaption>
+      <form action="submit" target="_blank">
+      	<button type="submit">Add to cart</button>
+      </form><br>
+    <img src="garlicbread.jpg" alt="Garlic bread" width="25%" height="25%">
+      	<figcaption>Garlic bread-<b>KSH 255/-</b></figcaption>
+	<form action="submit" target="_blank">
+		<button type="submit">Add to cart</button>
+	</form>
+	<p align="middle" style="font-size: 35; color:yellow;"><em>"Happiness is<br>the smell of<br>freshly baked bread"</em></p>
+	<img src="coconutbread.jpg" alt="coconut bread" width="25%" height="25%" class="coconutbread">
+	<figcaption>Coconut bread-<b>KSH 260/-</b></figcaption>
+	<form action="submit" target="_blank">
+		<button type="submit">Add to cart</button>
+	</form>
+	<br>
+	<img src="peanutbread.jpg" alt="peanut bread" width="25%" height="25%">
+	<figcaption>Peanut bread-<b>KSH245/-</b></figcaption>
+	<form action="submit" target="_blank">
+		<button type="submit">Add to cart</button>
+	</form>
+</fieldset>
+<h3>Pastries</h3>
+<fieldset>
+	<legend>Pastries</legend>
+	<img src="croissant.jpg" alt="Croissant" height="25%" width="25%">
+	<figcaption>Croissant-<b>KSH 220/-</b></figcaption>
+			<form>
+				<button type="submit">Add to cart</button>
+			</form><br>
+		<img src="doughnuts.jpg" alt="doughuts" height="25%" width="25%">
+		<figcaption>Doughnuts-KSH75/-</figcaption>
+		<form>
+			<button type="submit">Add to cart</button>
+		</form><br>
+		<textbox>
+		<p align="middle" style="color:beige;" class="Reviews"><b>Reviews</b><br>
+			<img src="eatdoughnut.jpg" alt="Lorraine" height="25%" width="25%"><br>
+			Lorraine from Kiamunyi said:
+			"Dough fairy's Doughnuts are <br>favourful and moist unlike<br>
+			any I have ever had.<br>
+			I would definitely recommend them to anyone."
+		      </p>
+		  </textbox>
+		<img src="cinnamonrolls.jpg" alt="Cinnamon rolls" height="25%" width="25%">
+		<figcaption>Cinnamon rolls-<b>KSH 100</b></figcaption>
+			<form>
+				<button type="submit">Add to cart</button>
+			</form>
+	</fieldset>
+	<fieldset>
+		<legend>Coffee</legend>
+<img src="latte.jpg" alt="Latte" width="25%" height="25%">
+<figcaption>Latte-<b>KSH 250/-</b></figcaption>
+<form><button type="submit">Add to cart</button></form><br>
+<img src="frappe.jpg" alt="Frappe" width="25%" height="25%">
+<figcaption>Frappe-<b>KSH 350/-</b></figcaption>
+<form>
+	<button type="submit">Add to cart</button>
+</form>
+<p align="middle" style="font-size:35; color:coral;">Coffee, <b>yes</b>,<br> you,<em>Maybe</p>
+<img src="mocha.jpg" alt="Mocha" width="25%" height="25%">
+<figcaption>Mocha-<b>KSH 320/-</b></figcaption>
+<form>
+	<button type="submit">Add to cart</button>
+</form>
+<button> <i style="font-size:24px" class="fa">&#xf07a;</i>
+</button>
+	</fieldset>
+	</body><br><br>
+	<p align="centre" style="background-color:black;"><footer>
+		<div class="contact">
+			<div class="FAQs">
+				<div class="copyright">
+		<b>Contact us</b><br>
+		IG - _doughfairy<br>
+		Phone number- 0733556785<br>
+		Email; doughfairy@gmail.com
+</div>
+		<a href="faq.html">FAQs</a>
+		</div>
+		doughfairy &copy2024
+		</div>
+	</footer>
+	</p>
+	</html>
