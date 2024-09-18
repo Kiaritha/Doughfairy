@@ -1,0 +1,91 @@
+<DOCTYPE html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Offers</title>
+		<style type="text/css">
+			
+			* {
+                box-sizing: border-box;
+            }
+            .flex-container {
+              display: flex;
+              flex-wrap: nowrap;
+              background-color: coral;
+              }
+
+           .flex-container .box {
+             background-color: ivory;
+             width: 50%;
+             margin: 15px;
+             text-align: center;
+             line-height: 30px;
+             font-size: 20px;
+        }
+
+            img{
+            	height: 25%;
+            	width: 25%;
+            }
+			button{
+				background-color: black;
+				color: orange;
+				height: 40px;
+				width: 200px;
+			}
+			/*Hana branigan*/
+			body{
+				background-image: url(bdiscounts.jpg);
+				background-size: contain;
+			}
+		
+			.p1{
+			color: orangered;
+			background-color: ivory;
+            max-width: 35%;
+            font-size: 25px;
+            font-family: georgia;
+			}
+			h1{
+				font-style: italic;
+			}
+			/*copyright pixabay*/
+			
+			/* copyright Polina Tankilevich*/
+		</style>
+		
+	</head>
+	<body>
+		<h1>These are some of the offers we have in our bakery this week.</h1>
+		<div>
+		<p class="p1">Start your week with a pastry!</p>
+        </div>
+		<div class="flex-container">
+		<div class="box">
+	<img src="cinnamonrolls.jpg" alt="Cinnamon rolls"><br>
+	Buy one cinnamon roll get a free cup of mixed tea.<em>Offer valid till 19th March</em><br>
+	<b>KSH 150/-</b>
+	   <br>
+	<p id="frminfo"></p>
+	<script>
+		function myBtn() {
+         document.getElementById("frminfo").innerHTML = "Buy a cinnamon roll";
+		}
+	</script>
+	<form id="frm1" action="">
+	<button type="submit" onclick="myBtn()">Add to cart</button>
+	</form>
+	</div>
+	<div class="box">
+	<img src="croissant.jpg" alt="croissant"><br>
+	Buy three croissants at the price of two.<em>Offer valid till 15th March</em><br>
+	<b>KSH 440/-</b>
+	<form>
+		<button>Add to cart</button>
+	</form>
+</div>
+</div>
+ </body>
+	</html>

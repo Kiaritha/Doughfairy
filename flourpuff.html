@@ -1,0 +1,335 @@
+<DOCTYPE html>
+	<!DOCTYPE html>
+	<html lang="eng-us">
+	<head>
+		<meta charset="utf-8">
+		<meta name="decsription" content="Flour puff's website">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Mercy Kiaritha">
+		<meta http-equiv="refresh" content="30">
+		<title>DOUGH FAIRY</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<!--check why this is not 
+			working <link rel="icon" type="image/x-icon" href="webdev1/favicon.ico">-->
+				<script>
+			function myFunction() {
+				alert("Welcome to Flour puff!\nHappy shopping");
+			}
+   </script>
+</head>
+	<style type="text/css">
+			
+			  button{
+                 background-color: orangered;
+                 color: white;
+                 font-family: italic;
+			}
+			/*check if this area is valid*/
+			ul{
+				list-style-type: none;
+				padding: 0;
+				overflow: hidden;
+			}
+			li a:hover {
+				color: orange;
+			}
+			header{
+				padding-bottom: 40px;
+				background-color: saddlebrown;
+			}
+			*{
+				font-family: cursive;
+				font-display: initial;
+			}
+			body{
+	
+				background-image: url(bakery.jpg);
+				background-attachment: scroll;/*check for effect*/
+				background-size: contain;
+			}
+		  header li{
+				float: inline-start;
+				display: inline;
+				padding: 15px;/*check for effect created*/
+	}
+			header nav{
+				float: right;
+				 padding: 14px 25px;
+				
+			}
+			nav a:visited {
+				color: saddlebrown;
+			}
+			nav a:hover {
+				background-color: orange;
+				font-weight: bold;
+			}
+			/*.active{
+				background-color: maroon;
+			}*/
+			h2{
+				color: maroon;
+           }
+           h1{
+           	text-align: center;
+           	color: orange;
+           	font-weight: bold;
+}
+        .contact{
+           	color: orange;
+           }
+
+           .copyright{
+           	color: orange;
+
+           }
+
+           .faq{
+           	text-decoration-line: underline;
+           	text-decoration-style: solid;
+            text-decoration color: red; 
+            color: yellow;
+            margin-right: 30px;
+            }
+
+           footer{
+           	background-color: black;
+           }
+
+           .reviews{
+           	background-color: orange;
+           	width: 600;
+           	margin: auto;
+           	border: 4px inset orange;
+           	color: saddlebrown;
+           	margin-bottom: 75px;
+           	outline-style: solid;
+           	outline-color: rgb(0, 0, 0 / 0.6);
+           	outline-offset: 15px;
+           }
+
+           .reviews p{
+           	text-align: center;
+           }
+           .r2{
+           	border: 3px solid orangered;
+           	text-align: center;
+           	padding: 10px;
+           	max-width: 60%;
+           	margin-left: 80px;
+           	background-color: rgba(78, 56, 0, 0.5);
+           }
+           /*.reviews img{
+           	align-content: center;
+           }*//* check what happes when this is tweaked*/
+
+           *{
+	    margin: 0;
+	     padding: 0;
+	     box-sizing: border-box;
+	     transition: .20s ease-in-out;
+
+        }
+     .container{
+	  width: 100%;
+	  height: 100vh;
+    background-color: blanchedalmond;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+   }
+  .content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: .10rem;
+}
+.card{
+	width: 45%;
+	height: 45%;
+	border-radius: 0.5rem;
+	box-shadow: 10 5px 10px 10 rgba(0, 1, 0, 0.5);
+	cursor: pointer;
+	overflow: hidden;
+}
+.card + .card{
+	margin-left: -10%;
+}
+.card:hover ~ .card {
+	translate: 3rem;
+	
+}
+.card:hover{
+	color:orange;
+}
+.content .card img {
+	width: 100%;
+
+           /* Image copyrights; croissants-Polina Tankilevich, Cinnamon rolls- Pixabay, Coconut bread:Marta Dzedysheko, Peanut bread:Ana Palade, garlic bread:Rajan Gaur, Coffee bar and bakery:Lisa fotios, Rye bread:Mariana Kurnyk Mocha: Fallon Michael,frappe:jvalencuazz Shon, eatdoughnut;Utopix pictures pictures*/
+		</style>
+	</head>
+	<body onload="myFunction()">
+		
+ <header>
+	<h1 style="align-content: center; ">Flour puff<br>
+<img src="fpuff.jpg" alt="logo" width="10%" height="10%" style="align-content: center;">
+	 </h1>
+	<div id="links">
+		<nav>                  
+		<ul>
+			<li><a class="active" style="text-decoration: none; color: blanchedalmond;" href="home1.html">Home</a></li>
+			<li><a style="text-decoration: none; color: blanchedalmond;"  href="aboutus.html">About Us</a></li>
+			<li><a style="text-decoration: none; color: blanchedalmond ;"  href="bestsellers.html">Best sellers</li>
+			<li><a style="text-decoration: none; color: blanchedalmond;"  href="discounts.html">Offers</a></li>
+		</ul>
+		</nav>
+	</div><br><br><br><br>
+	<div class="container">
+		<div class="content">
+			<div class="card"><img src="coffeeshop.jpg" height="35%" width="35%" alt="sfront"></div>
+				<div class="card"><img src="carousel.jpg" height="35%" width="35%" alt="pastries"></div>
+					<div class="card"><img src="carousel1.jpg" height="35%" width="35%" alt="frappe"></div>
+					<div class="card"><img src="carousel2.jpg" height="35%" width="35%" alt="pastry"></div>
+							</div>
+						</div>
+	
+	</header>
+	<fieldset>
+		<legend>Bread</legend>
+	<h2>Bread</h2><br>
+	<p id="username"></p>
+    <img src="bread.jpg" style="background-color: lightpink;" width="35%" height="45%"><br>
+    <figcaption><em>Fresh bread</em></figcaption><br><br>
+    <script>
+    	function usrName() {
+     let text;
+     let user = prompt("Please enter your name:","John Doe");
+     if (user == null || user == "") {
+     	text = "User did not enter data";
+     }else {
+     	text = "Hello" + user + "How are you today?";
+     }
+     //document.getElementById("username").innerHTML = text;
+   }
+    </script>
+    <p class="r2" style="color:orange; font-size: 20; font-family:cursive;" id="p1" onmouseover="myP()">
+    	There are many varieties of bread that we sell at our bakery in order to cater<br>to the preferences of all our clients. Shop here:<br></p>
+    <form>
+    	<input type="button" name="Click me" value="CLICK ME"  onclick="usrName()">
+    </form>
+
+    <script>
+    	function myP() {
+    	  document.getElementById("p1").style.fontSize = "23px";
+    	}
+    </script>
+
+    <img src="ryebread.jpg" alt="Rye bread" width="25%" height="25%">
+    <figcaption>Rye bread-<b>KSH 250/-</b></figcaption>
+      <form form action="desig.html" method="get">
+      	<button type="submit" id="ryebread">Add to cart</button>
+      	<i class="fa-solid fa-cart-shopping"></i>
+  </form><br>
+    <img src="garlicbread.jpg" alt="Garlic bread" width="40%" height="45%" style="border-radius: 50%;">
+      	<figcaption>Garlic bread-<b>KSH 255/-</b></figcaption>
+<form> 
+		<button type="submit">Add to cart</button>
+		<i class="fa-solid fa-cart-shopping"></i>
+</form>
+	<p align="middle" style="font-size: 35; color:yellow;"><em>"Happiness is<br>the smell of<br>freshly baked bread"</em></p>
+	<img src="coconutbread.jpg" alt="coconut bread" width="25%" height="35%" class="coconutbread" style="border-radius: 50%;">
+	<figcaption>Coconut bread-<b>KSH 260/-</b></figcaption>
+ <form>
+		<button type="submit">Add to cart</button>
+		<i class="fa-solid fa-cart-shopping"></i>
+</form>
+	<br>
+	<img src="peanutbread.jpg" alt="peanut bread" width="25%" height="35%" style="border-radius: 50%;">
+	<figcaption>Peanut bread-<b>KSH245/-</b></figcaption>
+	 <form id="Peanutbread1" method="post" name="Peanutbread">
+		<button type="submit">Add to cart</button>
+		<i class="fa-solid fa-cart-shopping"></i>
+</form>
+</fieldset>
+<h3>Pastries</h3>
+<fieldset>
+	<legend>Pastries</legend>
+	<img src="croissant.jpg" alt="Croissant" height="35%" width="25%">
+	<figcaption style="color:white;">Croissant-<b>KSH 220/-</b></figcaption>
+			 <form>
+				<button type="submit">Add to cart</button>
+				<i class="fa-solid fa-cart-shopping"></i>
+					</form><br>
+		<img src="doughnuts.jpg" alt="doughuts" height="30%" width="25%">
+		<figcaption style="color:white;">Doughnuts-KSH75/-</figcaption>
+		 <form>
+			<button type="submit">Add to cart</button>
+			<i class="fa-solid fa-cart-shopping"></i>
+	</form><br>
+		<textbox>
+		<div class="reviews"><b>Reviews</b><br>
+			<img src="eatdoughnut.jpg" alt="Lorraine" height="30%" width="auto" align="middle"><br>
+						<p>Lorraine from Kiamunyi said:
+			"Flour puff's Doughnuts are <br>favourful and moist unlike<br>
+			any I have ever had.<br>
+			I would definitely recommend them to anyone."</p>
+    </div><br>
+		  </textbox>
+		<img src="cinnamonrolls.jpg" alt="Cinnamon rolls" height="45%" width="45%">
+		<figcaption>Cinnamon rolls-<b>KSH 100</b></figcaption>
+			 <form>
+				<button type="submit">Add to cart</button>
+				<i class="fa-solid fa-cart-shopping"></i>
+</form>
+			</fieldset>
+	<fieldset>
+		<legend>Coffee</legend>
+<img src="latte.jpg" alt="Latte" width="25%" height="35%">
+<figcaption style="color:black;">Latte-<b>KSH 250/-</b></figcaption>
+ <form>
+	<button type="submit">Add to cart</button>
+<i class="fa-solid fa-cart-shopping"></i>
+
+</form><br>
+<img src="frappe.jpg" alt="Frappe" width="25%" height="35%">
+<figcaption style="color:black;">Frappe-<b>KSH 350/-</b></figcaption>
+ <form>
+	<button type="submit">Add to cart</button>
+	<i class="fa-solid fa-cart-shopping"></i>
+
+</form>
+<p align="middle" style="font-size:35; color:black;">Coffee, <b>yes</b>,<br> you,<em>Maybe</p>
+<img src="mocha1.jpg" alt="Mocha" width="25%" height="40%" id="mocha" onmouseout="mochaChng()">
+
+<script>
+	function mochaChng() {
+    document.getElementById("mocha").src = "mocha2.jpg";
+  }
+</script>
+<figcaption style="color: white;">Mocha-<b>KSH 320/-</b></figcaption>
+ <form>
+	<button type="submit">Add to cart</button>
+	<i class="fa-solid fa-cart-shopping"></i>
+	</form><br>
+	</fieldset>
+	</body><br><br>
+	<p align="centre" style="background-color:black; border-style: double; border-color: orange;"><footer>
+		<div class="contact">
+			<div class="FAQs">
+				<div class="copyright">
+		<b>Contact us</b><br>
+		 IG - _doughfairy<br>   
+		  Phone number- 0733556785<br>
+		     Email; doughfairy@gmail.com
+		     Location: Nakuru CBD     
+       </div>
+		<p class="faq"align="right"><a class="faq" href="faq.html">FAQs</a></p>
+		</div>
+		<p align="middle">doughfairy &copy2024</p>
+		</div>
+		<button onclick="window.print()">Print this page</button>
+
+	</footer>
+	</p>
+	<!--link rel= icon href...-->
+	</html
